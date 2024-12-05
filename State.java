@@ -19,6 +19,7 @@ public class State {
                 case "*":
                 case "/":
                     currentOperator = input;
+                    accumulator = currentOperator;
                     clearOnNextInput = true;
                     break;
                 case "=":
